@@ -1,0 +1,23 @@
+.image {
+    width: 222.75px;
+    margin-right: 85px;
+    border: 1px solid #353743;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+.image:hover {
+    border-color: #252734;
+    background: #252734;
+    color: white;
+}

@@ -1,0 +1,20 @@
+.wrapper {
+    background-color: #252734 !important;
+}
+
+.section {
+    background-color: #252734 !important;
+}
+
+.container {
+    background-color: #252734 !important;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.card {
+    padding: 7rem 0;
+}

@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: 120px auto;
+    column-gap: 20px;
+}
+
+.image {
+    width: 30px;
+    height: auto;
+}
+
+.imageWrapper {
+    border: 1px solid #40424d;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+}
+
+.statsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.stats {
+    color: #fff;
+    /* font-family: Poppins, sans-serif; */
+    font-size: 52px;
+    font-weight: 300;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+.description {
+    color: #858792;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+}

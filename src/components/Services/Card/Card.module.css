@@ -1,0 +1,42 @@
+.cardWrapper {
+    background-color: #252734;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 4.3rem;
+    width: 350px;
+}
+
+.cardImage {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.cardTitle {
+    color: #fff;
+    margin: 0;
+}
+
+.listItem {
+    color: #858792;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.1rem;
+}
+
+.serviceUl {
+    margin: 0;
+    padding: 0;
+}
+
+.cardItem {
+    color: #858792;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.listItem {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,23 @@
+.container {
+    background-color: #252734;
+    color: #fff;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    ;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.gray {
+    color: #858792;
+    font-family: Poppins, sans-serif;
+}

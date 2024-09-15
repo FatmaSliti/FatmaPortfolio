@@ -1,0 +1,12 @@
+.container {
+    background-color: #282a37;
+    padding: 115px 0;
+}
+
+.statsWrapper {
+    background-color: #282a37;
+    max-width: 1170px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

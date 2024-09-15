@@ -1,0 +1,46 @@
+.container {
+    background-color: #282a37;
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    margin: 0 0 50px 0
+}
+
+.image {
+    width: 100%;
+}
+
+.content {
+    text-align: left;
+}
+
+.category {
+    font-weight: 400;
+    margin-right: 35px;
+    position: relative;
+    font-size: 18px;
+}
+
+.category::after {
+    position: absolute;
+        content: "-";
+        left: calc(100% + 17.5px);
+}
+
+.description {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 42px;
+    font-size: 25px;
+    max-width: 450px;
+    margin: 23px 0 8px;
+}
+
+.date {
+    color: #858792;
+}
+
+.button {
+    max-width: 250px;
+}

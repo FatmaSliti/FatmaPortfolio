@@ -1,0 +1,47 @@
+
+.imageWrapper {
+    padding: 70px 70px 0 70px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.bg-image {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+    top: 50%;
+    left: 50%;
+    z-index: -46;
+
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 39, 52, .95);
+    z-index: -45;
+}
+
+.title {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+
+    font-size: 28px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+.field {
+    color: #858792;
+    font-family: Poppins, sans-serif;
+}

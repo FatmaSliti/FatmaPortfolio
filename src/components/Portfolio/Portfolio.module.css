@@ -1,0 +1,10 @@
+.projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+}
+
+.portfolioProject {
+    min-width: 1300px;
+    margin: auto;
+}

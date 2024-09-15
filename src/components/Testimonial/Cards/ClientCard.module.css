@@ -1,0 +1,78 @@
+.content {
+    position: relative;
+    color: #fff;
+    width: 498px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    padding: 165px 55px 70px 55px;
+    background-color: #282a37;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.icon {
+    left: 55px;
+    top: 90px;
+    position: absolute;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 120px;
+    line-height: 1;
+    color: #858792;
+}
+
+.text {
+    font-size: 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.designation {
+    display: inline-block;
+    font-weight: 300;
+    color: #858792;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+}
+
+.fill {
+    color: #ffa200;
+    margin-right: 10px;
+}
+
+.icofont-star {
+    /* font-family: IcoFont !important; */
+    /* font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none; */
+    /* white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr; */
+    /* line-height: 1; */
+
+}
+
+.icofont-star:before {
+    content: "\f000";
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review {
+    display: flex;
+}
