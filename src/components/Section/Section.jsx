@@ -4,9 +4,9 @@ const Section = ({ sectionTag, title, children, className }) => {
     return (
         <div className={`${styles.container} ${className}`}>
             <div className={styles.sectionWrapper}>
-                <span className={`${styles.sectionTag}`}>
+                <h2 className={`${styles.sectionTag}`}>
                     {sectionTag}
-                </span>
+                </h2>
                 <h2 className={`${styles.sectionTitle}`}>
                     {title}
                 </h2>

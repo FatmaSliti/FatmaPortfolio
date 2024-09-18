@@ -1,6 +1,14 @@
 .serviceContainer {
-    display: flex;
+    /* display: flex;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
+    background-color: red;
+    padding: 100px; */
+}
+
+.bullets {
+    background-color: #fff;
+    color: #fff;
 }

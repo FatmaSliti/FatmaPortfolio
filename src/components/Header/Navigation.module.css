@@ -1,8 +1,7 @@
-.navigation {
+/* .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 20px; */
     margin: 0;
     padding: 0 100px;
     list-style: none;
@@ -20,4 +19,62 @@
 
 .li {
     padding: 0 40px 0 40px;
+} */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    /* height: 120px; */
+}
+
+.a {
+    text-decoration: none;
+    color: #858792;
+    font-size: 20px;
+}
+
+.li {
+    padding: 0 20px;
+}
+
+@media (min-width: 992px) {
+    .navigation {
+        height: 120px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navigation {
+        display: none;
+        /* Hide the menu initially */
+        flex-direction: column;
+        /* Stack items vertically */
+        position: absolute;
+        top: 60px;
+        /* Below the header */
+        left: 0;
+        width: 100%;
+        /* Full width for mobile */
+        background-color: #252734;
+        /* Background color to match the header */
+        padding: 20px 0;
+        /* Add padding */
+        z-index: 9;
+        /* Ensure it appears above other content */
+    }
+
+    .navigation.active {
+        display: flex;
+        /* Show navigation when active */
+    }
+
+    .li {
+        padding: 20px 0;
+        text-align: center;
+    }
 }

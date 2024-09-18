@@ -21,8 +21,8 @@ function App() {
       <SpecialSkills />
       <Statistics />
       <Portfolio />
-      <Testimonial />
-      <Companies />
+      {/* <Testimonial />
+      <Companies /> */}
       <Blog />
       <Subscribe />
       <Footer />

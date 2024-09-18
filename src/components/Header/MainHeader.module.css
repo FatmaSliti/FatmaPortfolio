@@ -1,4 +1,4 @@
-.headerContainer {
+/* .headerContainer {
     background-color: #252734;
     display: flex;
     justify-content: center;
@@ -21,4 +21,55 @@
     color: #fff;
     position: relative;
     font-size: 18px;
+} */
+
+.headerContainer {
+    background-color: #252734;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+.logoText {
+    color: white;
+    font-size: 45px;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+}
+
+.menuButton {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    .headerContainer {
+        background-color: #2a2c39;
+    }
+
+    .mainHeader {
+        max-width: 800px;
+    }
+
+    .menuButton {
+        display: block;
+        z-index: 10;
+    }
+
+    .hireMeButton {
+        display: none;
+    }
 }

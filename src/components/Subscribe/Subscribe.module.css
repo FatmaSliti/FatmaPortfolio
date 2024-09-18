@@ -4,13 +4,13 @@
     justify-content: space-between;
     color: white;
     gap: 20px;
-
 }
 
 .contact {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .section {
@@ -20,7 +20,8 @@
 
 .contact input {
     padding: 20px 40px;
-    margin: 0 30px 0 0;
+    /* margin: 0 30px 0 0; */
+
     width: 615px;
     border-radius: 32.5px;
     border: 1px solid rgba(255, 255, 255, .1);
@@ -40,7 +41,11 @@
     color: #fff;
     font-size: 16px;
     font-weight: 500;
+    min-width: 200px;
+}
 
+.submitButton input {
+    outline: none;
 }
 
 .submitButton:hover {
@@ -50,9 +55,10 @@
 .subscribeFooter {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 20px;
     color: white;
-    padding: 115px 0  70px;
+    padding: 115px 0 70px;
 }
 
 .iconContainer {
@@ -63,19 +69,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* color: white; */
 }
 
 .iconContainerEnd {
     width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        border: 1px solid rgba(255, 255, 255, .1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-.icon {}
+
+.iconContainer:hover,
+.iconContainerEnd:hover {
+    background: #fff;
+    color: #212529;
+}
 
 .text {
     font-size: 32px;
@@ -84,4 +97,31 @@
 button,
 input {
     transition: all .5s ease;
+    max-width: 100%;
+}
+
+.an {
+    text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+    .subscribeFooter {
+        flex-wrap: wrap;
+    }
+
+    .iconContainer {
+        width: 60px;
+        height: 60px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact {
+        flex-direction: column;
+
+    }
 }

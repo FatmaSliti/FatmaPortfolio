@@ -15,19 +15,19 @@ const Subscribe = () => {
                 <button className={styles.submitButton}>Subscribe Now</button>
             </div>
             <div className={styles.subscribeFooter}>
-                <span className={styles.iconWrapper}>
+                <div className={styles.iconWrapper}>
                     <div className={styles.iconContainer}>
-                        <FaPhoneAlt className={styles.icon} color='white' />
+                        <FaPhoneAlt className={styles.icon} />
                     </div>
                     <span className={styles.text}>+21695017336</span>
-                </span>
-                <span className={styles.iconWrapper}>
+                </div>
+                <div className={styles.iconWrapper}>
                     <div className={styles.iconContainer}>
-                        <MdEmail className={styles.icon} color='white' />
+                        <MdEmail className={styles.icon} />
                     </div>
                     <span className={styles.text}>fatmasliti289@gmail.com</span>
-                </span>
-                <span className={styles.iconWrapper}>
+                </div>
+                <div className={styles.iconWrapper}>
                     <div className={styles.iconContainerEnd}>
                         <FaFacebookF className={styles.icon} />
                     </div>
@@ -35,10 +35,11 @@ const Subscribe = () => {
                         <IoBasketballOutline className={styles.icon} />
                     </div>
                     <div className={styles.iconContainerEnd}>
-                        <FaLinkedin className={styles.icon} />
+                        {/* <a className={styles.an} href="https://www.linkedin.com/in/fatma-sliti/" target="_blank" rel="noopener noreferrer"> */}
+                            <FaLinkedin className={styles.icon} />
+                        {/* </a> */}
                     </div>
-                </span>
-
+                </div>
             </div>
         </Section>
     )

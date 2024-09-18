@@ -11,7 +11,7 @@ const SpecialSkills = () => {
         <div className={styles.skillsWrapper}>
             <div className={styles.container}>
                 <Section sectionTag='Special Skills' title='My Special Skill Field Here.' className={styles.section}>
-                    <Button className={styles.button} label='Get Resume' icon={<HiOutlineArrowDownTray color='white' />} />
+                    <Button className={styles.button} label='Get Resume' icon={<HiOutlineArrowDownTray  />} />
                 </Section>
                 <div className={styles.cards}>
                     <SkillsCard skill='Communication' progress='75%' />

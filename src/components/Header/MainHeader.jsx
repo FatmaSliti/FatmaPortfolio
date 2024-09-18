@@ -1,26 +1,56 @@
-import styles from '../Header/MainHeader.module.css'
-import Button from '../UI/Button'
-import Navigation from './Navigation'
-import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+// import styles from '../Header/MainHeader.module.css'
+// import Button from '../UI/Button'
+// import Navigation from './Navigation'
+// import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+
+// const MainHeader = () => {
+//     return (
+//         <div className={styles.headerContainer}>
+//             <div className={styles.mainHeader}>
+//                 <a href="k">
+//                     <img src="logo.png" alt="images" />
+//                 </a>
+//                 <Navigation />
+//                 <Button label='Hire Me' icon={<MdKeyboardDoubleArrowRight style={{ color: 'white' }} />} />
+//             </div>
+//         </div>
+//     )
+// }
+
+// export default 
+import React, { useState } from 'react';
+import styles from '../Header/MainHeader.module.css';
+import Button from '../UI/Button';
+import Navigation from './Navigation';
+import { MdKeyboardDoubleArrowRight, MdMenu, MdClose } from "react-icons/md";
 
 const MainHeader = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenuHandler = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return (
         <div className={styles.headerContainer}>
             <div className={styles.mainHeader}>
-                <a href="k">
-                    <img src="/logo.png" alt="images" />
-                </a>
-                <Navigation />
-                {/* <div>
-                    <a className={`${styles.a} `} href="#a">
-                        Hire me
-                        <i className='icofont-double-right'></i>
-                    </a>
-                </div> */}
-                <Button label='Hire Me' icon={<MdKeyboardDoubleArrowRight style={{ color: 'white' }} />} />
+                {/* <a href="k"> */}
+                {/* <img src="logo.png" alt="logo" /> */}
+                <div className={styles.logoText}>
+                    FatmaPortfolio
+                </div>
+                {/* </a> */}
+
+                <nav>
+                    <button className={styles.menuButton} onClick={toggleMenuHandler}>
+                        {isMenuOpen ? <MdClose /> : <MdMenu />}
+                    </button>
+                    <Navigation isMenuOpen={isMenuOpen} toggleMenuHandler={toggleMenuHandler} />
+                </nav>
+                <Button className={styles.hireMeButton} label="Hire Me" icon={<MdKeyboardDoubleArrowRight style={{ color: 'white' }} />} />
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default MainHeader
+export default MainHeader;
