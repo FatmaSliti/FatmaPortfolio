@@ -8,7 +8,7 @@ const BlogCard = ({ imageSrc, category, date, description }) => {
             <div className={styles.imageWrapper}>
                 <img src={imageSrc} alt="" className={styles.image} />
             </div>
-            <div className={styles.subContainer}>
+            {/* <div className={styles.subContainer}> */}
                 <div className={styles.content}>
                     <span className={styles.category}>{category}</span>
                     <span className={styles.date}>{date}</span>
@@ -17,7 +17,7 @@ const BlogCard = ({ imageSrc, category, date, description }) => {
                 <div>
                     <Button className={styles.button} label='Read More' icon={<MdKeyboardDoubleArrowRight style={{ color: 'white' }} />} />
                 </div>
-            </div>
+            {/* </div> */}
 
         </div>
     )

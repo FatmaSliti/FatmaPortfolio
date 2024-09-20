@@ -19,7 +19,7 @@
 }
 
 .headTitle {
-    font-size: 80px;
+    font-size: 60px;
     margin: 1rem 0 0.5rem;
     font-weight: 700;
 }
@@ -50,6 +50,7 @@
     max-width: 100%;
     height: auto;
     margin: auto;
+    width: 665px;
 }
 
 .image-half-round-shape::before {
@@ -90,6 +91,7 @@
 
 .button {
     max-width: 250px;
+    margin-bottom: 30px;
 }
 
 .icon {

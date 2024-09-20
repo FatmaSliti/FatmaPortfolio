@@ -10,7 +10,7 @@ const SpecialSkills = () => {
     return (
         <div className={styles.skillsWrapper}>
             <div className={styles.container}>
-                <Section sectionTag='Special Skills' title='My Special Skill Field Here.' className={styles.section}>
+                <Section sectionTag='Special Skills' title='Skills that set me apart from others.' className={styles.section}>
                     <Button className={styles.button} label='Get Resume' icon={<HiOutlineArrowDownTray  />} />
                 </Section>
                 <div className={styles.cards}>

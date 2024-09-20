@@ -1,23 +1,20 @@
 .container {
     background-color: #282a37;
     color: #fff;
-    /* display: grid;
-    grid-template-columns: auto auto auto; */
     display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
+    align-items: stretch;
+    flex-direction: column;
     padding: 50px;
-    /* margin: 0 0 50px 0; */
     margin: 0 auto 50px;
-    /* background-color: red; */
     gap: 80px;
+    height: 100%;
 }
 
 .subContainer {
     display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
+    align-items: stretch;
     gap: 90px;
+    height: 100%;
 }
 
 
@@ -76,3 +73,4 @@
         width: 100%;
     }
 }
+

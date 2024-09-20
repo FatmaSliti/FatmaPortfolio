@@ -49,6 +49,10 @@
     right: 10px;
 }
 
+.title {
+    max-width: 750px;
+}
+
 
 
 @media (max-width: 992px) {

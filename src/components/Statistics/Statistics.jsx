@@ -7,13 +7,13 @@ const Statistics = () => {
         <div className={styles.container}>
             <div className={styles.statsWrapper}>
                 <div>
-                    <StatisticPart imageSrc='counterup-icon-1.png' stats='258+' description='Happy Clients' />
+                    <StatisticPart imageSrc='counterup-icon-1.png' stats='15+' description='Happy Clients' />
                 </div>
                 <div>
-                    <StatisticPart imageSrc='counterup-icon-2.png' stats='590K' description='Project Complete' />
+                    <StatisticPart imageSrc='counterup-icon-2.png' stats='20+' description='Projects' />
                 </div>
                 <div>
-                    <StatisticPart imageSrc='counterup-icon-3.png' stats='28+' description='Years of Experience' />
+                    <StatisticPart imageSrc='counterup-icon-3.png' stats='2+' description='Years of Experience' />
                 </div>
             </div>
         </div>

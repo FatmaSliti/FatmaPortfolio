@@ -1,20 +1,19 @@
-.button{
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    
     text-decoration: none;
     font-size: 18px;
     border: 1px solid #3b3d49;
     transition: all .5s ease;
-    padding-left: 30px;
-        padding-right: 30px;
-        height: 65px;
-        border-radius: 32.5px;
-        line-height: 60px;
-        color: #fff;
-            font-family: Poppins, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 65px;
+    border-radius: 32.5px;
+    line-height: 60px;
+    color: #fff;
+    font-family: Poppins, sans-serif;
 }
 
 .button:hover {
@@ -22,5 +21,13 @@
 }
 
 .icon {
-    margin-left: 20px;
+    margin-left: 10px;
+}
+
+@media (max-width: 350px) {
+    .button {
+        font-size: 16px;
+        padding-left: 14px;
+        padding-right: 15px;
+    }
 }

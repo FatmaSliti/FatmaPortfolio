@@ -54,7 +54,7 @@ import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 const Portfolio = () => {
     return (
         <>
-            <Section sectionTag='Awesome Portfolio' title='My Complete Projects'>
+            <Section sectionTag='Awesome Portfolio' title={<div className={styles.title}>Some stunning selective projects I have done for my clients.</div>} className={styles.portfolioSection}>            
                 <div className={styles.swiperContainer}>
                     <Swiper
                         breakpoints={{

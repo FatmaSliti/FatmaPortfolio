@@ -10,15 +10,15 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-const items1 = ['Landing Pages', 'User Flow', 'Wireframing', 'Prototyping', 'Mobile App Design']
-const items2 = ['HTML/CSS', 'JavaScript', 'Animation', 'WordPress', 'React']
-const items3 = ['Character Design', 'Icon Set', ' Illustration Guide', 'Illustration Set', 'Motion Graphic']
+const items1 = ['HTML/CSS', 'JavaScript', 'React', 'Accessibility', 'Responsive Design']
+const items2 = ['Server Setup', 'Database Integration', ' APIs', 'Deployment', 'Error Handling']
+const items3 = ['Version Control (Git)', 'Command Line', 'Package Management', 'Debugging', 'Browser DevTools']
 
 const ServicesWrapper = () => {
     return (
         <Section
             sectionTag="My Services"
-            title="Service Provide For My Clients."
+            title="How I Turn My Clients' Ideas into Reality."
         >
             <Swiper
                 breakpoints={{
@@ -34,20 +34,20 @@ const ServicesWrapper = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 className={styles['swiper-pagination-bullet']}
-                pagination={{ clickable: true, bulletActiveClass: styles.bullets }}
+                pagination={{ clickable: true, dynamicBullets: true }}
             >
                 <div className={`${styles.serviceContainer}`}>
                     <SwiperSlide>
-                        <Card imageSrc='service-icon-1.png' title='UI/UX Design' items={items1} />
+                        <Card imageSrc='service-icon-1.png' title='Frontend' items={items1} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card imageSrc='service-icon-2.png' title='Development' items={items2} />
+                        <Card imageSrc='service-icon-3.png' title='Configuration' items={items3} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card imageSrc='service-icon-3.png' title='Illustration' items={items3} />
+                        <Card imageSrc='service-icon-2.png' title='Backend' items={items2} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card imageSrc='service-icon-3.png' title='Illustration' items={items3} />
+                        <Card imageSrc='service-icon-3.png' title='Configuration' items={items3} />
                     </SwiperSlide>
                 </div>
             </Swiper>

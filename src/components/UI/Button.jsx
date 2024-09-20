@@ -1,17 +1,20 @@
 import styles from '../UI/Button.module.css'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { Link } from 'react-router-dom'
 
-const Button = ({label, icon, className}) => {
+const Button = ({ label, icon, className, linkUrl }) => {
     return (
         <div className={className}>
-            <a href="" className={styles.button}>
+            <Link to={linkUrl} className={styles.button}>
                 {label}
                 <div className={styles.icon}>
                     {icon}
                 </div>
-            </a>
+            </Link>
         </div>
     )
 }
 
 export default Button
+
+{/* <Link to="./ClientProjectInfo" className={styles.button}> */ }

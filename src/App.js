@@ -10,23 +10,33 @@ import Companies from './components/Companies/Companies';
 import Blog from './components/Blog/Blog';
 import Subscribe from './components/Subscribe/Subscribe';
 import Footer from './components/Footer/Footer';
+import ClientInfos from './components/Info/ClientProjectInfo'
+import { Routes, Route } from 'react-router-dom'
 
 
 function App() {
   return (
-    <>
-      <MainHeader />
-      <HeroSection />
-      <ServicesWrapper />
-      <SpecialSkills />
-      <Statistics />
-      <Portfolio />
-      {/* <Testimonial />
-      <Companies /> */}
-      <Blog />
-      <Subscribe />
-      <Footer />
-    </>
+    <div className="App">
+      <Routes>
+        <Route path='/' element={
+          <>
+            <MainHeader />
+            <HeroSection />
+            <ServicesWrapper />
+            <SpecialSkills />
+            <Statistics />
+            <Portfolio />
+            {/* <Testimonial />
+            <Companies /> */}
+            <Blog />
+            <Subscribe />
+            <Footer />
+          </>
+        } />
+        <Route path='/clientProjectInfo' element={<ClientInfos />} />
+      </Routes>
+
+    </div>
   );
 }
 

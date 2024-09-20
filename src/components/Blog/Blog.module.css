@@ -3,4 +3,23 @@
     grid-template-columns: auto;
     justify-items: center; */
     text-align: center;
+    height: 100%;
+}
+
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-self: stretch;
+
+}
+
+.blogSWiper {
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: stretch;
 }

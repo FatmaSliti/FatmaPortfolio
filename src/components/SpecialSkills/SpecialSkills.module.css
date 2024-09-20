@@ -8,10 +8,10 @@
     /* display: flex;
     justify-content: space-between;
     align-items: center; */
-
     padding: 7rem 0;
     max-width: 1170px;
     margin: auto;
+    gap: 20px;
     /* width: 100%; */
 }
 
