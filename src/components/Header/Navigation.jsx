@@ -1,29 +1,3 @@
-// import React from 'react';
-// import styles from '../Header/Navigation.module.css';
-// const Navigation = ({ isMenuOpen, toggleMenuHandler }) => {
-//     return (
-//         <ul className={`${styles.navigation} ${isMenuOpen ? styles.active : ''}`}>
-//             <li className={styles.li}>
-//                 <a className={styles.a} href="#" onClick={toggleMenuHandler}>Home</a>
-//             </li>
-//             <li className={styles.li}>
-//                 <a className={styles.a} href="#" onClick={toggleMenuHandler}>Service</a>
-//             </li>
-//             <li className={styles.li}>
-//                 <a className={styles.a} href="#" onClick={toggleMenuHandler}>Blog</a>
-//             </li>
-//             <li className={styles.li}>
-//                 <a className={styles.a} href="#" onClick={toggleMenuHandler}>Pages</a>
-//             </li>
-//             <li className={styles.li}>
-//                 <a className={styles.a} href="#" onClick={toggleMenuHandler}>Contact</a>
-//             </li>
-//         </ul>
-//     );
-// };
-
-// export default Navigation;
-
 import React from 'react';
 import styles from '../Header/Navigation.module.css';
 import { Link } from 'react-router-dom';

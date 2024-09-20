@@ -1,23 +1,3 @@
-// import styles from '../Header/MainHeader.module.css'
-// import Button from '../UI/Button'
-// import Navigation from './Navigation'
-// import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-
-// const MainHeader = () => {
-//     return (
-//         <div className={styles.headerContainer}>
-//             <div className={styles.mainHeader}>
-//                 <a href="k">
-//                     <img src="logo.png" alt="images" />
-//                 </a>
-//                 <Navigation />
-//                 <Button label='Hire Me' icon={<MdKeyboardDoubleArrowRight style={{ color: 'white' }} />} />
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default 
 import React, { useState } from 'react';
 import styles from '../Header/MainHeader.module.css';
 import Button from '../UI/Button';
@@ -34,13 +14,9 @@ const MainHeader = () => {
     return (
         <div className={styles.headerContainer}>
             <div className={styles.mainHeader}>
-                {/* <a href="k"> */}
-                {/* <img src="logo.png" alt="logo" /> */}
                 <div className={styles.logoText}>
                     FatmaPortfolio
                 </div>
-                {/* </a> */}
-
                 <nav>
                     <button className={styles.menuButton} onClick={toggleMenuHandler}>
                         {isMenuOpen ? <MdClose /> : <MdMenu />}
