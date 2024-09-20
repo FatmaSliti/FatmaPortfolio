@@ -86,10 +86,10 @@ const Portfolio = () => {
                             <ProjectCard imageSrc='project4.png' projectName='GPT3 - React Template' field='Charity /Fund Raising /Non Profit' liveDemo='https://gpt3-react-project-smoky.vercel.app/'/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <ProjectCard imageSrc='project55.png' projectName='GPT3 - React Template' field='Charity /Fund Raising /Non Profit' liveDemo='https://react-easy-recipe-site.vercel.app/'/>
+                            <ProjectCard imageSrc='project55.png' projectName='Easy Recipes - React Project' field='Charity /Fund Raising /Non Profit' liveDemo='https://react-easy-recipe-site.vercel.app/'/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <ProjectCard imageSrc='project6.png' projectName='GPT3 - React Template' field='Charity /Fund Raising /Non Profit' liveDemo='https://food-order-app-kqam.vercel.app/'/>
+                            <ProjectCard imageSrc='project6.png' projectName='Meals - React Project' field='Charity /Fund Raising /Non Profit' liveDemo='https://food-order-app-kqam.vercel.app/'/>
                         </SwiperSlide>
                     </Swiper>
                     <div className={styles.swiperButtonPrev}>

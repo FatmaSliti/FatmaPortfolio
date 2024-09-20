@@ -51,6 +51,16 @@
 .button {}
 
 
+.image {
+    margin: auto;
+    width: 100%;
+}
+
+.imageWrapper {
+    width: 100%;
+}
+
+
 @media (max-width: 1199px) {
     .subContainer {
         flex-wrap: wrap;

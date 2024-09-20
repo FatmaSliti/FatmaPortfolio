@@ -80,15 +80,16 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
     .swiperButtonNext {
         left: 70px;
-        top: -60px;
-        
+        top: -80px;
+        margin: 10px 0;
     }
 
     .swiperButtonPrev {
         left: 0px;
-        top: -60px;
+        top: -80px;
+        margin: 10px 0;
     }
 }
