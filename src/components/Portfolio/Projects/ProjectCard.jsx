@@ -9,21 +9,15 @@ const ProjectCard = ({ imageSrc, projectName, field, liveDemo }) => {
                     <img src={imageSrc} alt="" />
                 </div>
                 
-
                 <img className={styles.image} src={imageSrc} alt="" />
                 
             </div>
-            {/* <div>
-                <p className={styles.title}>{projectName}</p>
-                <span className={styles.field}>{field}</span>
-            </div> */}
             <a className={styles.a} href={liveDemo} target="_blank" rel="noopener noreferrer">
                 <div>
                     <p className={styles.title}>{projectName}</p>
                     <span className={styles.field}>{field}</span>
                 </div>
             </a>
-
         </div>
     )
 }

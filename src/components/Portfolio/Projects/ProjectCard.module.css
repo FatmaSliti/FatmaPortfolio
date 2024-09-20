@@ -9,6 +9,7 @@
 
 .image {
     max-width: 100%;
+    min-height: 100%;
 }
 
 .bg-image {
@@ -18,7 +19,6 @@
     top: 50%;
     left: 50%;
     z-index: -46;
-
 }
 
 .bg-overlay {
