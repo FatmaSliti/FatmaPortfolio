@@ -39,11 +39,16 @@
     padding: 0 40px;
 }
 
+.mainHeader a {
+    text-decoration: none;
+}
+
 .logoText {
     color: white;
     font-size: 45px;
     font-family: "Allura", cursive;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .menuButton {

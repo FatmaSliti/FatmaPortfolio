@@ -3,6 +3,7 @@ import styles from '../Header/MainHeader.module.css';
 import Button from '../UI/Button';
 import Navigation from './Navigation';
 import { MdKeyboardDoubleArrowRight, MdMenu, MdClose } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 const MainHeader = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,9 +15,11 @@ const MainHeader = () => {
     return (
         <div className={styles.headerContainer}>
             <div className={styles.mainHeader}>
-                <div className={styles.logoText}>
-                    FatmaPortfolio
-                </div>
+                <Link to="/">
+                    <div className={styles.logoText}>
+                        FatmaPortfolio
+                    </div>
+                </Link>
                 <nav>
                     <button className={styles.menuButton} onClick={toggleMenuHandler}>
                         {isMenuOpen ? <MdClose /> : <MdMenu />}
