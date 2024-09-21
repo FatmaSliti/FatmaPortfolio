@@ -4,6 +4,7 @@
     justify-content: space-between;
     color: white;
     gap: 20px;
+    cursor: pointer;
 }
 
 .contact {
@@ -61,6 +62,10 @@
     padding: 115px 0 70px;
 }
 
+.subscribeFooter a {
+    text-decoration: none;
+}
+
 .iconContainer {
     width: 85px;
     height: 85px;
@@ -92,6 +97,12 @@
 
 .text {
     font-size: 32px;
+}
+
+.iconWrapper:hover .iconContainer {
+    background: #fff;
+    color: #212529;
+    
 }
 
 button,

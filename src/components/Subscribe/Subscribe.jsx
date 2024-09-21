@@ -21,24 +21,30 @@ const Subscribe = () => {
                     </div>
                     <span className={styles.text}>+21695017336</span>
                 </div>
-                <div className={styles.iconWrapper}>
-                    <div className={styles.iconContainer}>
-                        <MdEmail className={styles.icon} />
+
+                <a href="mailto:fatmasliti289@gmail.com">
+                    <div className={styles.iconWrapper}>
+                        <div className={styles.iconContainer}>
+                            <MdEmail className={styles.icon} />
+                        </div>
+                        <span className={styles.text}>fatmasliti289@gmail.com</span>
                     </div>
-                    <span className={styles.text}>fatmasliti289@gmail.com</span>
-                </div>
+                </a>
+
                 <div className={styles.iconWrapper}>
-                    <div className={styles.iconContainerEnd}>
-                        <FaFacebookF className={styles.icon} />
-                    </div>
+                    <a href="https://www.facebook.com/fatmasliti123" target='_blank'>
+                        <div className={styles.iconContainerEnd}>
+                            <FaFacebookF className={styles.icon} />
+                        </div>
+                    </a>
                     <div className={styles.iconContainerEnd}>
                         <IoBasketballOutline className={styles.icon} />
                     </div>
-                    <div className={styles.iconContainerEnd}>
-                        {/* <a className={styles.an} href="https://www.linkedin.com/in/fatma-sliti/" target="_blank" rel="noopener noreferrer"> */}
+                    <a href="https://www.linkedin.com/in/fatma-sliti/" target='_blank'>
+                        <div className={styles.iconContainerEnd}>
                             <FaLinkedin className={styles.icon} />
-                        {/* </a> */}
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </Section>
