@@ -1,8 +1,50 @@
 .clientInfoContainer {
     background-color: #2a2c39;
-    
+
 }
+
 .infoContainer {
     min-height: 100vh;
-    
+
+}
+
+.heroSection {
+    color: #fff;
+    height: 400px;
+    background-color: #252734;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heroSection h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.heroSection ul {
+    display: inline-flex;
+    margin: 30px 70px;
+    background-color: #2a2c39;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.heroSection ul li:first-child {
+    /* background-color: red; */
+    position: relative;
+    margin: 0 30px;
+    color: #858792;
+}
+
+.heroSection ul li:first-child::after {
+    position: absolute;
+        content: "||";
+        left: calc(100% + 10px);
+        visibility: visible;
+        color: #858792;
 }

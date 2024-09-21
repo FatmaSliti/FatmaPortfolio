@@ -9,6 +9,15 @@ const ClientProjectInfo = () => {
         <div className={styles.clientInfoContainer}>
             <div className={styles.infoContainer}>
                 <MainHeader />
+                <section className={styles.heroSection} >
+                    <div>
+                        <h2>Project Information</h2>
+                    </div>
+                    <ul>
+                        <li >Project</li>
+                        <li>Project Information</li>
+                    </ul>
+                </section>
                 <ClientForm />
                 <Subscribe />
             </div>
