@@ -37,7 +37,7 @@
 .heroSection ul li:first-child {
     /* background-color: red; */
     position: relative;
-    margin: 0 30px;
+    margin: 0 30px 0 0;
     color: #858792;
 }
 

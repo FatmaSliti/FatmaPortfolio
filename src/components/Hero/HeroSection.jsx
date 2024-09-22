@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <div className={styles.heroContent}>
                     <h3 className={styles.headTitle}>Hello! I'm</h3>
                     <h2 className={styles.title}>Fatma <span className={styles.shapeMark}>Sliti</span></h2>
-                    <p className={styles.headerDescription}>Bringing ideas into reality through Web Developement using MongoDB, ExpressJS, ReactJS and NodeJS i.e MERN Developer in Tunisia.</p>
+                    <p className={styles.headerDescription}>Turning ideas into reality through Web Developement using MongoDB, ExpressJS, ReactJS and NodeJS i.e MERN Developer in Tunisia.</p>
                     <Button className={styles.button} label='Enquire Now' icon={<HiOutlineArrowDownTray color='white' />} linkUrl='/clientProjectInfo' />
                 </div>
                 <div className={styles.heroImageContainer}>

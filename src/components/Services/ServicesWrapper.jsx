@@ -34,7 +34,7 @@ const ServicesWrapper = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 className={styles['swiper-pagination-bullet']}
-                pagination={{ clickable: true, dynamicBullets: true, bulletActiveClass: styles.activeBullet }}
+                pagination={{ clickable: true, dynamicBullets: true }}
             >
                 <div className={`${styles.serviceContainer}`}>
                     <SwiperSlide>
