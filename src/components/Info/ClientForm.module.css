@@ -31,7 +31,7 @@ textarea {
     justify-content: end;
 }
 
-button {
+.button {
     padding: 12px 20px;
     background-color: #3a3d51;
     color: white;
@@ -41,16 +41,17 @@ button {
     font-size: 16px;
 }
 
-button:hover {
+.button:hover {
     background-color: #2a2c39;
 }
 
-form {
+.form {
     max-width: 600px;
-    margin: 50px auto;
+    margin: 50px auto 0;
     background-color: #252734;
     color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }

@@ -56,7 +56,7 @@ const ClientForm = () => {
                 <input type="number" name="budget" id="budget" />
             </div>
             <div className={styles.buttonWrapper}>
-                <button type="submit">Submit</button>
+                <button className={styles.button} type="submit">Submit</button>
             </div>
         </form>
     )

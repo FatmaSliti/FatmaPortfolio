@@ -1,12 +1,9 @@
 .clientInfoContainer {
     background-color: #2a2c39;
-    /* margin-bottom: 50px; */
-    padding-bottom: 50px;
 }
 
 .infoContainer {
     min-height: 100vh;
-    /* margin-bottom: 50px; */
 }
 
 .heroSection {
@@ -44,8 +41,8 @@
 
 .heroSection ul li:first-child::after {
     position: absolute;
-        content: "||";
-        left: calc(100% + 10px);
-        visibility: visible;
-        color: #858792;
+    content: "||";
+    left: calc(100% + 10px);
+    visibility: visible;
+    color: #858792;
 }

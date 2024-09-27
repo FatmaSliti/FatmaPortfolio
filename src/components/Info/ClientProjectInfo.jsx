@@ -8,7 +8,6 @@ const ClientProjectInfo = () => {
     return (
         <div className={styles.clientInfoContainer}>
             <div className={styles.infoContainer}>
-                <MainHeader />
                 <section className={styles.heroSection} >
                     <div>
                         <h2>Project Information</h2>
@@ -19,9 +18,7 @@ const ClientProjectInfo = () => {
                     </ul>
                 </section>
                 <ClientForm />
-                <Subscribe />
             </div>
-            <Footer />
         </div>
     )
 }

@@ -1,0 +1,33 @@
+.container {
+    background-color: #2a2c39;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100%;
+    padding: 115px 0;
+    gap: 30px;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-self: stretch;
+
+}
+
+.blogSWiper {
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: stretch;
+}

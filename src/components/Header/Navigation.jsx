@@ -75,34 +75,37 @@ const Navigation = ({ isMenuOpen, toggleMenuHandler }) => {
 
             {/* <li className={styles.li} onClick={() => toggleSubmenu('services')}> */}
             <li className={styles.li} >
-                <a className={styles.a} href="#" >Service</a>
+                <Link className={styles.a} to="#" >Service</Link>
                 <ul className={`${styles.submenu} ${submenuOpen.services ? styles.active : ''}`}>
-                    <li><a href="#" className={`${styles.a} ${styles.subNavItem}`}>Services</a></li>
-                    <li><a href="#" className={`${styles.a} ${styles.subNavItem}`}>Service Details</a></li>
+                    <li><Link to="/services" className={`${styles.a} ${styles.subNavItem}`}>Services</Link></li>
+                    <li><Link to="/services/serviceDetails" className={`${styles.a} ${styles.subNavItem}`}>Service Details</Link></li>
                 </ul>
             </li>
 
             {/* <li className={styles.li} onClick={() => toggleSubmenu('blog')}> */}
-            <li className={styles.li} >
-                <a className={styles.a} href="#" >Blog</a>
-                <ul className={`${styles.submenu} ${submenuOpen.blog ? styles.active : ''}`}>
+            <Link className={styles.a} to="/blog" >
+                <li className={styles.li} >
+                    Blog
+                </li>
+            </Link>
+
+            {/* <ul className={`${styles.submenu} ${submenuOpen.blog ? styles.active : ''}`}>
                     <li><a href="#" className={`${styles.a} ${styles.subNavItem}`}>Blog List Full Width</a></li>
                     <li><a href="#" className={`${styles.a} ${styles.subNavItem}`}>Blog List Left Sidebar</a></li>
                     <li><a href="#" className={`${styles.a} ${styles.subNavItem}`}>Blog List Right Sidebar</a></li>
-                </ul>
-            </li>
+                </ul> */}
 
             {/* <li className={styles.li} onClick={() => toggleSubmenu('pages')}> */}
             <li className={styles.li} >
-                <a className={styles.a} href="#" >Pages</a>
+                <div className={styles.a}>Pages</div>
                 <ul className={`${styles.submenu} ${submenuOpen.pages ? styles.active : ''}`}>
-                    <li><a href="#" className={`${styles.a} ${styles.subNavItem}`}>About Us</a></li>
-                    <li><a href="#" className={`${styles.a} ${styles.subNavItem}`}>Project</a></li>
+                    <li><Link to="/about" className={`${styles.a} ${styles.subNavItem}`}>About Us</Link></li>
+                    <li><Link to="/project" className={`${styles.a} ${styles.subNavItem}`}>Project</Link></li>
                 </ul>
             </li>
 
             <li className={styles.li}>
-                <a className={styles.a} href="#" onClick={toggleMenuHandler}>Contact</a>
+                <Link className={styles.a} to="/contact" onClick={toggleMenuHandler}>Contact</Link>
             </li>
         </ul>
     );

@@ -26,7 +26,7 @@ const MainHeader = () => {
                     </button>
                     <Navigation isMenuOpen={isMenuOpen} toggleMenuHandler={toggleMenuHandler} />
                 </nav>
-                <Button className={styles.hireMeButton} label="Hire Me" icon={<MdKeyboardDoubleArrowRight style={{ color: 'white' }} />} />
+                <Button linkUrl='/contact' className={styles.hireMeButton} label="Hire Me" icon={<MdKeyboardDoubleArrowRight style={{ color: 'white' }} />} />
             </div>
         </div>
     );

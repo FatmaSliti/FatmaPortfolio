@@ -1,0 +1,22 @@
+.container {
+background-color: #2a2c39;
+}
+
+.serviceContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 40px; */
+    padding: 100px 0;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: auto;
+    min-height: 400px;
+}
+
+.card {
+    height: 550px;
+    width: 350px;
+    margin-bottom: 0;
+}

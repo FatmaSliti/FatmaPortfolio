@@ -1,0 +1,169 @@
+.bigContainer {
+    background-color: #252734;
+}
+
+.container {}
+
+.wrapper {
+    background-color: #2a2c39;
+
+}
+
+.aboutContainer {
+    /* min-height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: auto;
+    padding: 115px 50px;
+    /* gap: 200px; */
+}
+
+.image {
+    /* width: 400px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* width: 500px; */
+    /* background-color: #252734; */
+}
+
+
+.image img {}
+
+.about {
+    color: #fff;
+    max-width: 600px;
+
+}
+
+.about h1 {
+    color: #fff;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 70px;
+}
+
+.about h2 {
+    color: #858792;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+}
+
+.about p {
+    color: #858792;
+    font-family: Poppins, sans-serif;
+    margin-top: 25px;
+}
+
+
+
+/* Education and Experience section */
+
+
+
+.experienceWrapper {
+    background-color: #252734;
+    padding: 115px 0;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.experienceContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1170px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.experienceContainer .btn {
+    font-size: 58px;
+    font-family: "Cormorant Garamond", serif;
+    width: 50%;
+    height: fit-content;
+    background-color: #252734;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 8px 16px;
+}
+
+.experienceContainer .btnFocus {
+    background-color: #2a2c39;
+    border: 1px solid #252734;
+}
+
+/* .experience button:first-child {
+    margin-right: 10px;
+} */
+
+
+/*************************/
+
+
+
+
+.sidebar {
+    /* height: 800px; */
+    width: 750px;
+    height: 250px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+    /* border-bottom: none; */
+}
+
+
+
+.subContainer {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.education {
+    color: #fff;
+}
+
+.subSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.year {
+    color: #858792;
+    font-family: Poppins, sans-serif;
+    padding: 20px 40px;
+    border-right: 1px solid #fff;
+}
+
+
+.rightContent {
+    width: 800px;
+}
+
+
+.rightContent h3 {
+    font-size: 33px;
+    /* font-weight: 600; */
+    margin-bottom: 25px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.rightContent span {
+    display: block;
+    margin-bottom: 25px;
+    color: #858792;
+    font-family: Poppins, sans-serif;
+}
+
+.rightContent p {
+    margin-bottom: 25px;
+    color: #858792;
+    font-family: Poppins, sans-serif;
+}
+

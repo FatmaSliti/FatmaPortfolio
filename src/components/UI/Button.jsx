@@ -16,5 +16,3 @@ const Button = ({ label, icon, className, linkUrl }) => {
 }
 
 export default Button
-
-{/* <Link to="./ClientProjectInfo" className={styles.button}> */ }
