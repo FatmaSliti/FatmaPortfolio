@@ -79,7 +79,7 @@ const router = createBrowserRouter([
           <Services />
           <SpecialSkills />
           <Portfolio />
-          <Blog />
+          {/* <Blog /> */}
           {/* <Statistics /> */}
         </>
       },

@@ -38,7 +38,20 @@
 }
 
 .form {
+    /* width: 100%; */
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+}
+
+.inputGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 .form input,
@@ -53,12 +66,14 @@
     /* display: flex;
     
     gap: 5%; */
-    margin-right: 5%;
+    /* margin-right: 5%; */
     outline: none;
+    width: 100%;
 }
 
-.form input {
-    width: 45%;
+
+.form .inputGroup {
+width: 100%;
 }
 
 .form textarea {
@@ -67,6 +82,7 @@
 
 .form button {
     border-radius: 32.5px;
+    width: fit-content;
 }
 
 .form button:hover {
@@ -109,6 +125,11 @@
 }
 
 .infoContainer span {
+    color: #858792;
+}
+
+.infoContainer a {
+    text-decoration: none;
     color: #858792;
 }
 

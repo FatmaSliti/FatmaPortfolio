@@ -54,7 +54,7 @@ import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 const Portfolio = () => {
     return (
         <>
-            <Section sectionTag='Awesome Portfolio' title={<div className={styles.title}>Some stunning selective projects I have done for my clients.</div>} className={styles.portfolioSection}>            
+            <Section sectionTag='Awesome Portfolio' title={<div className={styles.title}>Some stunning selective projects I have done.</div>} className={styles.portfolioSection}>
                 <div className={styles.swiperContainer}>
                     <Swiper
                         breakpoints={{
@@ -73,27 +73,83 @@ const Portfolio = () => {
                             prevEl: `.${styles.swiperButtonPrev}`,
                         }}
                     >
+
+
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='stats.png' projectName='Frontend Mentor Challenge 1' field='Charity /Fund Raising /Non Profit' liveDemo='https://frontend-mentor-challenges-z88h.vercel.app/' />
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='fourcard.png' projectName='Frontend Mentor Challenge 2' field='Charity /Fund Raising /Non Profit' liveDemo='https://frontend-mentor-challenges-yiva.vercel.app/' />
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='chal1.png' projectName='Frontend Mentor Challenge 3' field='Charity /Fund Raising /Non Profit' liveDemo='https://frontend-mentor-challenges-eight-liart.vercel.app/' />
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='curve.png' projectName='Frontend Mentor Challenge 4' field='Charity /Fund Raising /Non Profit' liveDemo='https://frontend-mentor-challenges-12a6.vercel.app/' />
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='card.png' projectName='Frontend Mentor Challenge 5' field='Charity /Fund Raising /Non Profit' liveDemo='https://frontend-mentor-challenges-96vi.vercel.app/' />
+                        </SwiperSlide>
+                        
+
+
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='menu.png' projectName='JS menu app' field='Charity /Fund Raising /Non Profit' liveDemo='https://javascript-projects-plum-six.vercel.app/' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='modal.png' projectName='JS Modal app' field='Charity /Fund Raising /Non Profit' liveDemo='https://javascript-projects-cji7.vercel.app/' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='ques.png' projectName='JS Questions app' field='Charity /Fund Raising /Non Profit' liveDemo='https://javascript-projects-r3pc.vercel.app/' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='grocery.png' projectName='JS grocery app' field='Charity /Fund Raising /Non Profit' liveDemo='https://javascript-projects-7387.vercel.app/' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='scroll.png' projectName='JS scroll app' field='Charity /Fund Raising /Non Profit' liveDemo='https://javascript-projects-i6ri.vercel.app/' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='about.png' projectName='JS About app' field='Charity /Fund Raising /Non Profit' liveDemo='https://javascript-projects-qug1.vercel.app/' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='video.png' projectName='JS video app' field='Charity /Fund Raising /Non Profit' liveDemo='https://javascript-projects-fnzd.vercel.app/' />
+                        </SwiperSlide>
+
+
+
+
                         <SwiperSlide>
                             <ProjectCard imageSrc='project3.png' projectName='Elzero - HTML/CSS Template' field='Charity /Fund Raising /Non Profit' liveDemo='https://temp3-blue.vercel.app/' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <ProjectCard imageSrc='project2.png' projectName='Kasper - HTML/CSS Template' field='Charity /Fund Raising /Non Profit' liveDemo='https://html-css-template2-nzb1.vercel.app/'/>
+                            <ProjectCard imageSrc='project2.png' projectName='Kasper - HTML/CSS Template' field='Charity /Fund Raising /Non Profit' liveDemo='https://html-css-template2-nzb1.vercel.app/' />
                         </SwiperSlide>
                         <SwiperSlide>
                             <ProjectCard imageSrc='project1.png' projectName='IO - HTML/CSS Template' field='Charity /Fund Raising /Non Profit' liveDemo='https://temp-f96b.vercel.app/' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <ProjectCard imageSrc='project4.png' projectName='GPT3 - React Template' field='Charity /Fund Raising /Non Profit' liveDemo='https://gpt3-react-project-smoky.vercel.app/'/>
+                            <ProjectCard imageSrc='project4.png' projectName='GPT3 - React Template' field='Charity /Fund Raising /Non Profit' liveDemo='https://gpt3-react-project-smoky.vercel.app/' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <ProjectCard imageSrc='project55.png' projectName='Easy Recipes - React Project' field='Charity /Fund Raising /Non Profit' liveDemo='https://react-easy-recipe-site.vercel.app/'/>
+                            <ProjectCard imageSrc='project55.png' projectName='Easy Recipes - React Project' field='Charity /Fund Raising /Non Profit' liveDemo='https://react-easy-recipe-site.vercel.app/' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <ProjectCard imageSrc='project6.png' projectName='Meals - React Project' field='Charity /Fund Raising /Non Profit' liveDemo='https://food-order-app-kqam.vercel.app/'/>
+                            <ProjectCard imageSrc='project6.png' projectName='Meals - React Project' field='Charity /Fund Raising /Non Profit' liveDemo='https://food-order-app-kqam.vercel.app/' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='todoapp.png' projectName='Meals - React Project' field='Charity /Fund Raising /Non Profit' liveDemo='https://react-todo-list-app-gules.vercel.app/' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <ProjectCard imageSrc='expense.png' projectName='Expense Tracker - React Project' field='Charity /Fund Raising /Non Profit' liveDemo='https://expense-tracker-react-project-one.vercel.app/' />
+                            {/* https://github.com/FatmaSliti/expense-tracker-react-project */}
                         </SwiperSlide>
                     </Swiper>
                     <div className={styles.swiperButtonPrev}>
-                        <MdKeyboardDoubleArrowLeft  />
+                        <MdKeyboardDoubleArrowLeft />
                     </div>
                     <div className={styles.swiperButtonNext}>
                         <MdKeyboardDoubleArrowRight />

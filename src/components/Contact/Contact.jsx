@@ -22,15 +22,20 @@ const Contact = () => {
                         </div>
                         <div className={styles.infoContainer}>
                             <h6>Email</h6>
-                            <span>fatmasliti289@gmail.com</span>
+                            <span>
+                                <a href="mailto:fatmasliti289@gmail.com">fatmasliti289@gmail.com</a>
+                            </span>
                         </div>
                         <div className={styles.infoContainer}>
                             <h6>Website</h6>
-                            <span>www.example.com</span>
+                            
+                            <span>
+                                <a target='__blank' href="https://github.com/FatmaSliti">https://github.com/FatmaSliti</a>
+                            </span>
                         </div>
                         <div className={styles.infoContainer}>
                             <h6>Address</h6>
-                            <span>Chouhadee Street Teboursouk Tunisia</span>
+                            <span>Teboursouk Tunisia</span>
                         </div>
                     </div>
                     <div className={styles.follow}>
@@ -41,9 +46,12 @@ const Contact = () => {
                                     <FaFacebookF className={styles.icon} />
                                 </div>
                             </a>
-                            <div className={styles.iconContainerEnd}>
-                                <IoBasketballOutline className={styles.icon} />
-                            </div>
+                            <a href="https://github.com/FatmaSliti" target='_blank'>
+                                <div className={styles.iconContainerEnd}>
+                                    <IoBasketballOutline className={styles.icon} />
+                                </div>
+                            </a>
+                            
                             <a href="https://www.linkedin.com/in/fatma-sliti/" target='_blank'>
                                 <div className={styles.iconContainerEnd}>
                                     <FaLinkedin className={styles.icon} />
@@ -61,17 +69,23 @@ const Contact = () => {
                     </Section>
                     <div>
                         <form action="" className={styles.form}>
-                            <div>
-                                <input placeholder='Name' type="text" name="" id="" />
-                                <input placeholder='Email' type="text" name="" id="" />
+                            <div className={styles.formContainer}>
+                                <div>
+                                    <div className={styles.inputGroup}>
+                                        <input placeholder='Name' type="text" name="" id="" />
+                                        <input placeholder='Email' type="text" name="" id="" />
+                                    </div>
+                                    <div className={styles.inputGroup}>
+                                        <input placeholder='Phone' type="text" name="" id="" />
+                                        <input placeholder='Subject' type="text" name="" id="" />
+                                    </div>
+                                </div>
+
+                                <div >
+                                    <textarea placeholder='Comment' name="" id=""></textarea>
+                                </div>
                             </div>
-                            <div>
-                                <input placeholder='Phone' type="text" name="" id="" />
-                                <input placeholder='Subject' type="text" name="" id="" />
-                            </div>
-                            <div>
-                                <textarea placeholder='Comment' name="" id=""></textarea>
-                            </div>
+                            
                             <button onClick={handleForm}>Submit message</button>
                         </form>
                     </div>

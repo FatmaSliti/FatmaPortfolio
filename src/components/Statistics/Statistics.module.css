@@ -10,9 +10,9 @@
     /* display: grid;
     grid-template-columns: auto auto auto; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 
 

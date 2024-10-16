@@ -21,12 +21,12 @@ const About = () => {
                 <div className={styles.wrapper}>
                     <div className={styles.aboutContainer}>
                         <div className={styles.image}>
-                            <img src="fati.png" alt="" />
+                            <img src="fatmaportfolio.png" alt="imagee" />
                         </div>
                         <div className={styles.about}>
                             <h1>I’m Fatma Sliti</h1>
                             <h2>Web Developer specializing in MERN stack.</h2>
-                            <p>I'm Fatma Sliti, a Web Developer specializing in the MERN stack. I thrive on creating seamless user experiences through modern web technologies. My journey in development is driven by a passion for design and a commitment to building dynamic, responsive applications that solve real-world problems.</p>
+                            <p>I thrive on creating seamless user experiences through modern web technologies. My journey in development is driven by a passion for design and a commitment to building dynamic, responsive applications that solve real-world problems.</p>
                         </div>
                     </div>
                 </div>
@@ -40,6 +40,19 @@ const About = () => {
                     </div>
                     <div>
                         {isEducationVisible && <div className={styles.education}>
+                            <div className={styles.subSection}>
+                                <div className={styles.sidebar}>
+                                    <span className={styles.year}>2024-2026</span>
+                                </div>
+                                <div className={styles.rightContent}>
+                                    <h3>Master's degree in Systems, Networks and Cloud Computing.</h3>
+                                    <span>University of Sfax</span>
+                                    <p>Seeking to deepen my knowledge in systems, networks, and cloud computing, I am pursuing a Master's degree at the University of Sfax from 2024 to 2026. This program will equip me with advanced skills in optimizing network infrastructure and leveraging cloud technologies to meet modern computing demands.</p>
+
+                                </div>
+                            </div>
+
+
                             <div className={styles.subSection}>
                                 <div className={styles.sidebar}>
                                     <span className={styles.year}>2020-2023</span>
@@ -69,9 +82,9 @@ const About = () => {
                                     <span className={styles.year}>2023-2024</span>
                                 </div>
                                 <div className={styles.rightContent}>
-                                    <h3>React Frontend Developer</h3>
+                                    <h3>React Frontend Developer (3 months)</h3>
                                     <span>Asteroidea</span>
-                                    <p>Focused on mastering software development principles, algorithms, and systems design, with hands-on experience in web development, databases, and machine learning. Developed a strong foundation in coding practices and problem-solving techniques through both theoretical coursework and practical projects.</p>
+                                    <p>Collaborating with the team to build a parking app interfaces and an Electrical vehicules project using React.js and a GUI using Electron.</p>
                                 </div>
                             </div>
 

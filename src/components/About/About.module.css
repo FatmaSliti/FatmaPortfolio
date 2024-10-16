@@ -13,11 +13,11 @@
     /* min-height: 500px; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 1170px;
     margin: auto;
     padding: 115px 50px;
-    /* gap: 200px; */
+    gap: 80px;
 }
 
 .image {
@@ -30,7 +30,9 @@
 }
 
 
-.image img {}
+.image img {
+    width: 300px;
+}
 
 .about {
     color: #fff;

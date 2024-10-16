@@ -14,7 +14,7 @@ const ServicesSecondVersion = () => {
                 <Card className={styles.card} imageSrc='service-icon-1.png' title='Frontend' items={items1} />
                 <Card className={styles.card} imageSrc='service-icon-2.png' title='Backend' items={items2} />
                 <Card className={styles.card} imageSrc='service-icon-3.png' title='Configuration' items={items3} />
-                <Card className={styles.card} imageSrc='service-icon-3.png' title='UI/UX Design' items={items4} />
+                {/* <Card className={styles.card} imageSrc='service-icon-3.png' title='UI/UX Design' items={items4} /> */}
             </div>
         </div>
     )
